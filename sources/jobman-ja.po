@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Job Manager 0.7\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/job-manager\n"
 "POT-Creation-Date: 2010-04-21 20:31+0000\n"
-"PO-Revision-Date: 2013-04-13 16:25+0900\n"
+"PO-Revision-Date: 2013-04-15 15:31+0900\n"
 "Last-Translator: Shinichi\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -172,7 +172,7 @@ msgstr "このフィールドは、フィルタリングできません。"
 
 #: admin-applications.php:181
 msgid "Filter Applications"
-msgstr "フィルターアプリケーション"
+msgstr "応募フィルター"
 
 #: admin-applications.php:185
 msgid "Show Filter Options"
@@ -353,7 +353,7 @@ msgstr ""
 
 #: admin-emails.php:112 admin-jobs.php:84 admin-settings.php:596 admin.php:30
 msgid "Applications"
-msgstr "アプリケーション"
+msgstr "応募"
 
 #: admin-emails.php:128 admin-emails.php:181
 msgid "Message"
@@ -617,6 +617,9 @@ msgid ""
 "the contained text as the link text. If it is used outside of the <tt>"
 "[job_loop]</tt>, it will display a link to the main Application Form."
 msgstr ""
+"リンク文字列として格納されている文字列と、現在の求人の応募フォームへのリンク"
+"が表示されます。<tt>[job_loop] </tt>タグのループ外で使用されている場合は、メ"
+"インの応募フォームへのリンクが表示されます。"
 
 #: admin-frontend-settings.php:176
 msgid "Job Category Information"
@@ -713,6 +716,9 @@ msgid ""
 "HTML and shortcodes for each. This can be used inside a <tt>[job_loop]</tt>, "
 "or on an Individual Job page."
 msgstr ""
+"定義された求人フィールドのすべてに対して、それぞれに含まれるHTMLとショート"
+"コードを表示します。これは<tt> [job_loop] </tt>か、固有の求人ページ上で使用す"
+"ることができます。"
 
 #: admin-frontend-settings.php:195
 msgid ""
@@ -1589,6 +1595,8 @@ msgid ""
 "address in the initial application, and the field used for emailing "
 "applicants."
 msgstr ""
+"メールアドレスとして使用する応募フォールドです。これは、初期の\"From\" アドレ"
+"スとなり、電子メール応募に使用するフォールドです。"
 
 #: admin-settings.php:356
 msgid "From Name"
@@ -2052,6 +2060,8 @@ msgid ""
 "we frequently post new jobs. In the meantime, you can also <a href='%s'>send "
 "through your résumé</a>, which we'll keep on file."
 msgstr ""
+"現在、応募可能な仕事がありません。新しい仕事がないか、定期的にチェックして下"
+"さい。それまで <a href='%s'>履歴書</a>を作成する事ができます。"
 
 #: frontend-jobs.php:164
 #, php-format
@@ -2061,6 +2071,9 @@ msgid ""
 "href='%s'>send through your résumé</a>, which we'll keep on file, and you "
 "can check out the <a href='%s'>jobs we have available in other areas</a>."
 msgstr ""
+"この条件では現在、利用可能な仕事がありません。新しい求人情報があるまで、定期"
+"的にチェックして下さい。<a href='%s'>他の条件の仕事</a>には、<a href='%s'>履"
+"歴書を送信する事</a>が可能です。"
 
 #: frontend-jobs.php:223
 msgid "This job doesn't exist"
@@ -2072,6 +2085,8 @@ msgid ""
 "Perhaps you followed an out-of-date link? Please check out the <a href=\"%s"
 "\">jobs we have currently available</a>."
 msgstr ""
+"期限切れのリンクではありませんか？<a href=\"%s\">現在有効な仕事がないか</a>"
+"チェックして下さい。"
 
 #: frontend-shortcodes.php:157 frontend-shortcodes.php:355
 msgid "more"
@@ -2127,6 +2142,8 @@ msgid ""
 "registered but don't remember your password, please visit the <a "
 "href='%1s'>password reset page</a>."
 msgstr ""
+"このメールアドレスは既に登録されています。以前に登録したが、パスワードを覚え"
+"ていない場合は、<a href='%1s'>パスワードリセットのページ</ a>をご覧ください。"
 
 #: frontend.php:277
 #, php-format
@@ -2134,10 +2151,12 @@ msgid ""
 "This job listing was created using <a href=\"%s\" title=\"%s\">Job Manager</"
 "a> for WordPress, by <a href=\"%s\">Gary Pendergast</a>."
 msgstr ""
+"この求人リストはWordPress のために、 <a href=\"%s\">Gary Pendergast</a>によっ"
+"て、<a href=\"%s\" title=\"%s\">Job Manager</a>を使用して作られました。"
 
 #: frontend.php:277
 msgid "WordPress Job Manager"
-msgstr "WordPressのジョブ·マネージャ"
+msgstr "WordPressのジョブ·マネージャー"
 
 #: frontend.php:371 frontend.php:374
 msgid "Job Listing"
@@ -2179,12 +2198,12 @@ msgstr "今すぐ応募"
 #: setup.php:93 setup.php:94 setup.php:353 setup.php:354
 #, php-format
 msgid "Page %1s"
-msgstr ""
+msgstr "ページ %1s"
 
 #: setup.php:95 setup.php:355
 #, php-format
 msgid "Jobs %1s-%2s of %3s"
-msgstr ""
+msgstr "%3sの求人 %1s - %2s"
 
 #: widgets.php:5
 msgid "Job Manager: Recent Jobs"
